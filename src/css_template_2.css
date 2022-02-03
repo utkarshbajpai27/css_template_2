@@ -34,4 +34,36 @@
 
 #header ul li:hover{
     background-color: hotpink;
+}
+
+#content{
+    
+    display:block;
+    padding-left: 3%;
+}
+
+#main-page{
+    max-width: 55%;
+    float:left;
+    overflow: hidden;
+    display:inline;
+}
+
+#content h2 {
+    color: blue;
+}
+
+
+#sidebar{
+    float: right;
+    background-color: rgb(183, 196, 201);
+    max-width: 25%;
+    display: inline;
+    padding:1%;
+    overflow: hidden;
+
+  }
+
+  #sidebar p{
+    padding-bottom:78%;
   }
