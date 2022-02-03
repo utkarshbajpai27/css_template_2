@@ -65,5 +65,17 @@
   }
 
   #sidebar p{
-    padding-bottom:78%;
+    padding-bottom:81%;
+  }
+
+  #footer{
+    width:98%;
+    float:left;
+    text-align: right;
+    background-color: lightblue;
+    padding:1%;
+  }
+
+  #footer h4,p{
+    margin:1%;
   }
