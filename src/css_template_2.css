@@ -1,0 +1,37 @@
+#body {
+    margin:0%;
+}
+#header{
+    background-color: rgb(116, 119, 115);
+    overflow:auto;
+}
+
+#title h1 {
+  padding: 0%;
+  background-color: rgb(183, 196, 201);
+  margin: 0%;
+}
+
+#nav ul {
+    background-color: rgb(47, 236, 0);
+    border: 0%;
+    padding: 0%;
+    display: inline;
+}
+#nav li {
+    background-color:rgb(116, 199, 238);
+    float: left;
+    padding: 0.5%;
+    list-style: none;
+    border-right: 2px solid white;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    
+}
+
+#header ul li:hover{
+    background-color: hotpink;
+  }
