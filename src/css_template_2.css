@@ -1,8 +1,14 @@
 #body {
     margin:0%;
+    background-color: rgb(183, 196, 201);
+    
+}
+
+#wrapper{
+    height:100%;
+    width:100%;
 }
 #header{
-    background-color: rgb(116, 119, 115);
     overflow:auto;
 }
 
@@ -11,7 +17,10 @@
   background-color: rgb(183, 196, 201);
   margin: 0%;
 }
-
+#nav{
+    background-color: black;
+    overflow:auto;
+}
 #nav ul {
     background-color: rgb(47, 236, 0);
     border: 0%;
@@ -39,18 +48,24 @@
 #content{
     
     display:block;
-    padding-left: 3%;
+    color: rgb(183, 196, 201);
+    color:black;
+}
+#content h2{
+    padding:3%;
 }
 
 #main-page{
-    max-width: 55%;
+    max-width: 70%;
     float:left;
     overflow: hidden;
     display:inline;
+    background-color: white;
 }
 
 #content h2 {
     color: blue;
+    padding:1%;
 }
 
 
@@ -61,11 +76,9 @@
     display: inline;
     padding:1%;
     overflow: hidden;
+    position:relative;
+    color:black;
 
-  }
-
-  #sidebar p{
-    padding-bottom:81%;
   }
 
   #footer{
@@ -77,5 +90,5 @@
   }
 
   #footer h4,p{
-    margin:1%;
+    margin:1.3%;
   }
